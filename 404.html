@@ -4,17 +4,12 @@
     <meta charset="UTF-8" />
     <title>Redirecting…</title>
     <script>
-      // Your GitHub Pages base path
+<!--      // Your GitHub Pages base path-->
       const base = "/lmsdemo";
+<!--      const base = "/web";-->
 
-      // Get the requested URL
-      let path = window.location.pathname;
-
-      // Remove the /lmsdemo prefix so we only get /employee-tabs etc.
-      path = path.replace(base, "");
-
-      // Redirect to index.html and pass the original route as a hash
-      window.location.replace(`${base}/index.html#${path}`);
+<!--      // Always redirect user to the home page-->
+      window.location.replace(`${base}/index.html`);
     </script>
 </head>
 <body></body>
