@@ -1,0 +1,25 @@
+{
+    "name": "JMR LMS Fulcrum",
+    "short_name": "JMR LMS Fulcrum",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "A new Flutter project.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/icons/firebase_logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/firebase_logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+
+}
